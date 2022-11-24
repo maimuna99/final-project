@@ -1,0 +1,65 @@
+html {
+  background: slategray;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 60px auto 0 auto;
+  max-width: 600px;
+}
+
+main {
+  height: 650px;
+  min-height: 650px;
+  max-height: 650px;
+}
+button {
+  padding: 4px 12px;
+  margin-bottom: 20px;
+  background: white;
+  font-size: 14px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.container {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 32px;
+  margin: 20px;
+  height: 350px;
+  max-height: 350px;
+  min-height: 350px;
+}
+
+.async-component {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin: 15px;
+}
+
+.loaded {
+  background: rgba(0, 255, 100, 0.2);
+  border-color: rgb(0, 255, 100);
+}
+
+.errored {
+  height: 258px;
+  background: rgba(255, 0, 100, 0.2);
+  border-color: rgb(255, 0, 100);
+  color: white;
+}
+
+.scroll {
+  height: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  overflow: scroll;
+  padding: 10px;
+}
